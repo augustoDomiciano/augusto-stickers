@@ -28,7 +28,7 @@ public class App {
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
 
-        // exibir e manipular os dados 
+        // exibir e manipular os dados para gerar figurinhas muito legais
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
         var geradora = new GeradoraDeFigurinhas();
