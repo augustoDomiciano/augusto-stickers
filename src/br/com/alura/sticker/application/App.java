@@ -8,7 +8,7 @@ public class App {
 	public static void main(String[] args) throws Exception {
 
 
-        //Essa api tem a função de buscar imagens e transforma-las em figurinhas
+        //Essa api tem a função de buscar imagens e transforma-las em figurinhas praticas
         
 
         // fazer uma conexão HTTP e buscar os top 250 filmes
