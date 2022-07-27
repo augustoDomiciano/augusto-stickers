@@ -7,11 +7,10 @@ public class App {
 
 	public static void main(String[] args) throws Exception {
 
-<<<<<<< HEAD
-=======
+
         //Essa api tem a função de buscar imagens e transforma-las em figurinhas
         
->>>>>>> master
+
         // fazer uma conex�o HTTP e buscar os top 250 filmes
 
         // String url = "https://imdb-api.com/en/API/Top250Movies/k_0ojt0yvm";
@@ -33,7 +32,7 @@ public class App {
 
         var geradora = new GeradoraDeFigurinhas();
 
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 2; i++) {
 
             Conteudo conteudo = conteudos.get(i);
 
