@@ -20,13 +20,13 @@ public class GeradoraDeFigurinhas {
         //                 .openStream();
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
 
-        // cria nova imagem em memória com transparência e com tamanho novo
+        // cria nova imagem em memï¿½ria com transparï¿½ncia e com tamanho novo
         int largura = imagemOriginal.getWidth();
         int altura = imagemOriginal.getHeight();
         int novaAltura = altura + 200;
         BufferedImage novaImagem = new BufferedImage(largura, novaAltura, BufferedImage.TRANSLUCENT);
 
-        // copiar a imagem original pra novo imagem (em memória)
+        // copiar a imagem original pra novo imagem (em memï¿½ria)
         Graphics2D graphics = (Graphics2D) novaImagem.getGraphics();
         graphics.drawImage(imagemOriginal, 0, 0, null);
 
@@ -36,7 +36,7 @@ public class GeradoraDeFigurinhas {
         graphics.setFont(fonte);
 
         // escrever uma frase na nova imagem
-        graphics.drawString("RECOMENDADO", 23, novaAltura - 30);
+        graphics.drawString("rECOMENDADO", 23, novaAltura - 30);
 
         // escrever a nova imagem em um arquivo
         ImageIO.write(novaImagem, "png", new File(nomeArquivo));
