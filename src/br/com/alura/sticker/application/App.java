@@ -30,7 +30,7 @@ public class App {
 
         var geradora = new GeradoraDeFigurinhas();
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 1; i++) {
 
             Conteudo conteudo = conteudos.get(i);
 
