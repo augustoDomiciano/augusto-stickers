@@ -8,10 +8,10 @@ public class App {
 	public static void main(String[] args) throws Exception {
 
 
-        //Essa api tem a funÃ§Ã£o de buscar imagens e transforma-las em figurinhas
+        //Essa api tem a função de buscar imagens e transforma-las em figurinhas
         
 
-        // fazer uma conexï¿½o HTTP e buscar os top 250 filmes
+        // fazer uma conexão HTTP e buscar os top 250 filmes
 
         // String url = "https://imdb-api.com/en/API/Top250Movies/k_0ojt0yvm";
          String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
@@ -27,7 +27,7 @@ public class App {
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
 
-        // exibir e manipular os dados 
+        // exibir e manipular os dados para gerar figurinhas muito legais
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
         var geradora = new GeradoraDeFigurinhas();
