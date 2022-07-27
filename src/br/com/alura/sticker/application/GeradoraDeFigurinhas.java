@@ -32,7 +32,7 @@ public class GeradoraDeFigurinhas {
 
         // configurar a fonte
         Font fonte = new Font("Dialog", Font.BOLD, 33);
-        graphics.setColor(Color.BLUE);
+        graphics.setColor(Color.RED);
         graphics.setFont(fonte);
 
         // escrever uma frase na nova imagem
