@@ -37,7 +37,9 @@ public class GeradoraDeFigurinhas {
 
         // escrever uma frase na nova imagem
 
+
         graphics.drawString("Recomendo sim", 23, novaAltura - 30);
+
 
         graphics.drawString("Aprovado", 23, novaAltura - 30);
 
