@@ -31,13 +31,15 @@ public class GeradoraDeFigurinhas {
         graphics.drawImage(imagemOriginal, 0, 0, null);
 
         // configurar a fonte
-        Font fonte = new Font("Dialog", Font.BOLD, 35);
-        graphics.setColor(Color.BLUE);
+        Font fonte = new Font("Dialog", Font.BOLD, 33);
+        graphics.setColor(Color.RED);
         graphics.setFont(fonte);
 
         // escrever uma frase na nova imagem
 
-        graphics.drawString("Não recomendo", 23, novaAltura - 30);
+
+        graphics.drawString("Recomendo sim", 23, novaAltura - 30);
+
 
         graphics.drawString("Aprovado", 23, novaAltura - 30);
 
